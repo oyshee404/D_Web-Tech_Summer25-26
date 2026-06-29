@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#d7f3ff,#b9e8ff);
+    padding:40px;
+}
+
+.container{
+    width:750px;
+    margin:auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align:center;
+    color:#0077b6;
+    margin-bottom:25px;
+}
+
+fieldset{
+    border:2px solid #0077b6;
+    border-radius:10px;
+    margin-bottom:20px;
+    padding:20px;
+}
+
+legend{
+    color:#0077b6;
+    font-weight:bold;
+    padding:0 10px;
+    font-size:18px;
+}
+
+table{
+    width:100%;
+}
+
+td{
+    padding:10px;
+    vertical-align:top;
+}
+
+label{
+    font-weight:bold;
+    color:#333;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=number],
+input[type=date],
+select,
+textarea{
+    width:100%;
+    padding:10px;
+    border:1px solid #bbb;
+    border-radius:6px;
+    font-size:15px;
+    transition:.3s;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+    border:2px solid #0077b6;
+    outline:none;
+    box-shadow:0 0 8px rgba(0,119,182,.3);
+}
+
+textarea{
+    resize:none;
+}
+
+input[type=radio],
+input[type=checkbox]{
+    margin-right:5px;
+    margin-top:8px;
+}
+
+input[type=button],
+input[type=reset],
+input[type=submit],
+button[type="button"],
+button[type="reset"],
+button[type="submit"]
+{
+    width:140px;
+    padding:12px;
+    margin-top:20px;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+input[type=button],
+button[type="button"]{
+    background:#0077b6;
+    color:white;
+}
+
+input[type=reset],
+button[type="reset"]{
+    background:#dc3545;
+    color:white;
+    margin-left:10px;
+}
+
+input[type=submit],
+button[type="submit"]{
+    background:#28a745;
+    color:white;
+    margin-left:10px;
+}
+
+input[type=button]:hover,
+button[type="button"]:hover{
+    background:#005f8d;
+    transform:translateY(-2px);
+}
+
+input[type=reset]:hover,
+button[type="reset"]:hover{
+    background:#b02a37;
+    transform:translateY(-2px);
+}
+
+input[type=submit]:hover,
+button[type="submit"]:hover{
+    background:#218838;
+    transform:translateY(-2px);
+}
+
+font{
+    color:red;
+    font-weight:bold;
+}
